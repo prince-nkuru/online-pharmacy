@@ -1,0 +1,15 @@
+.about-text{
+  margin: 30px;
+  background-color: #007bff;
+  color: white;
+  /* font-weight: 800; */
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.about-text .description {
+  max-width:300px ;
+}

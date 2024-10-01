@@ -20,6 +20,7 @@ const Hello = () => {
           justifyContent: 'flex-start', // Optional
           alignItems: 'center' // Optional
         }} id="hero">
+            <h1>Welcome to IBOZA Pharmacy</h1>
             <h2>Your Health, Our Priority</h2>
             <p>Browse a wide range of medications and health products.</p>
             <a href="#products" className="btn" onClick={handleShop}>Shop Now</a>
