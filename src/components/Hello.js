@@ -1,7 +1,8 @@
 import React from 'react';
 import './Hello.css'
 import { useNavigate } from 'react-router';
-import pexel from './pexels-tima-miroshnichenko-7034125.jpg'
+
+import pexel from '../assets/pexels-tima-miroshnichenko-7034125.jpg'
 
 const Hello = () => {
   const navigate = useNavigate();

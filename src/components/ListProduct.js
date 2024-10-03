@@ -1,6 +1,8 @@
 import React from 'react';
 // import ProductCard from './ProductCard';
 import { useNavigate } from 'react-router';
+import './ListProduct.css'
+
 
 
 const products = [
