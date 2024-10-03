@@ -1,4 +1,14 @@
-.about-text{
+#about {
+  background-image: url("../assets/team.jpg");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100vw;
+}
+
+.about-text {
+  
+  
   margin: 30px;
   background-color: #007bff;
   color: white;
@@ -11,5 +21,5 @@
   align-items: center; */
 }
 .about-text .description {
-  max-width:300px ;
+  max-width: 300px;
 }
