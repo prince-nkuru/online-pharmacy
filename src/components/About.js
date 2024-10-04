@@ -1,24 +1,10 @@
 import React from "react";
 import "./About.css";
-import team from '../assets/team.jpg'
+import team from "../assets/team.jpg";
 
 const About = () => {
   return (
-    <section
-      id="about"
-      style={{
-        backgroundImage: `url(${team})`,
-        backgroundSize: "cover", // Adjusts image to cover the whole div
-        backgroundPosition: "center", // Centers the image
-        height: "auto", // Full height,
-        // display: "flex",
-        // justifyContent: 'center',
-        // alignItems: 'center',
-        // flexDirection : 'row',
-        width: "100vw", // Full width
-        
-      }}
-    >
+    <section id="about">
       <div className="about-text">
         <h2>About Us</h2>
         <p className="description">
